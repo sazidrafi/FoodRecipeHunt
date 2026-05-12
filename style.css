@@ -1,0 +1,28 @@
+.search-box-button{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    /* box-shadow: 4px 4px 8px grey; */
+}
+.style{
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 5px;
+    
+    border-color: orange;
+}
+.input-field{
+    width: 500px;
+    padding: 5px;
+    margin-top: 6px;
+}
+.search-button{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom: 6px;
+}
