@@ -26,3 +26,32 @@
     padding-top:5px;
     padding-bottom: 6px;
 }
+
+
+.img-size{
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.showAllFoods{
+    /* width: 20%; */
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    /* margin: 20px; */
+}
+.card-design{
+    border-radius: 8px;
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.2);
+    /* overflow: hidden; */
+}
+.heading-gap{
+    padding-top: 30px;
+    color: rgb(243, 135, 153);
+}
