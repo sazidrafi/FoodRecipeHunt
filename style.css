@@ -45,13 +45,38 @@
 .card-design{
     border-radius: 8px;
     margin: 20px;
-    height: 400px;
-    width: 300px;
     text-align: center;
     box-shadow: 12px 12px 12px rgba(0,0,0,0.2);
-    /* overflow: hidden; */
+    padding: 15px;
+    box-sizing: border-box;
+}
+.card-design2{
+    height: auto;
+    width: auto;
+}
+.card-design h3 {
+    color: rgb(243, 135, 153);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.card-design ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+.card-design li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
 }
 .heading-gap{
     padding-top: 30px;
     color: rgb(243, 135, 153);
+}
+#showDetailsOnClick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
