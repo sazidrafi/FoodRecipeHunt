@@ -27,8 +27,14 @@ const fetchInformation = (food_name) =>{
     const container = document.getElementById("showAllFoods")
     
     container.innerHTML = ""; //clear if any previous content left
-    
-     for(let element of data.meals) {  //traverse the data
+
+    //jodi food na thake tahole "No item found" print koro
+    if(data.meals == null)
+    {
+        container.innerText = "No item found";
+    }
+    else{
+        for(let element of data.meals) {  //traverse the data
         
         const div = document.createElement("div")
         div.classList.add("card-design")
@@ -47,12 +53,7 @@ const fetchInformation = (food_name) =>{
 
          //console.log(data);
      }
-
-
-     //card er details show kora
-     //ekhane theke kaj suru korte hbe,, ei approach e hbe na
-     //Event Delegation method apply korte hbe
-
+    }
     
   });
 }
