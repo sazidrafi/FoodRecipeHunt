@@ -65,7 +65,7 @@ hungry-monster/
 
 2. Open the project folder
    ```bash
-   cd hungry-monster
+   cd FoodRecipeHunt
    ```
 
 3. Open `index.html` in your browser — no server needed!
