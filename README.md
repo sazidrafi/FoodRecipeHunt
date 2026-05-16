@@ -1,12 +1,12 @@
-# 🍔 Hungry Monster
+# 🍔 FoodRecipeHunt
 
-A food search web app that lets you find your favourite meals and explore their ingredients — powered by the **MealDB API**.
+A food and recipe search website that lets you find your favourite meals and explore their ingredients powered by the **MealDB API**.
 
 ---
 
 ## 🌐 Live Preview
 
-> Open `index.html` in your browser to run locally.
+🔗 [Visit Live Site](https://sazidrafi.github.io/FoodRecipeHunt/)
 
 ---
 
@@ -40,7 +40,6 @@ A food search web app that lets you find your favourite meals and explore their 
 | HTML5 | Structure & layout |
 | CSS3 | Styling & card design |
 | JavaScript (ES6+) | DOM manipulation & API calls |
-| Bootstrap 5.3 | Responsive utilities |
 | MealDB API | Food data source |
 
 ---
@@ -61,7 +60,7 @@ hungry-monster/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/hungry-monster.git
+   git clone https://github.com/sazidrafi/FoodRecipeHunt.git
    ```
 
 2. Open the project folder
@@ -76,7 +75,7 @@ hungry-monster/
 ## 🔗 API Used
 
 **TheMealDB** — Free meal database API  
-Base URL: `https://www.themealdb.com/api/json/v1/1/search.php?s={food_name}`
+Base URL: [www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata](https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
 
 ---
 
@@ -86,15 +85,16 @@ Base URL: `https://www.themealdb.com/api/json/v1/1/search.php?s={food_name}`
 2. On clicking **Search**, `fetchInformation()` calls the MealDB API
 3. Results are rendered as clickable cards with image and meal name
 4. Clicking a card triggers `ShowDetails()` which displays full ingredient list at the top
+5. If a item is not found then it shows "Item not found"
 
 ---
 
 ## 🔮 Planned Features
 
-- [ ] Error handling for invalid/empty search
-- [ ] Loading spinner during API fetch
-- [ ] YouTube recipe video embed
-- [ ] Favourite meals bookmark feature
+- [ ] Implement input field and seach button
+- [ ] Connect API and access food name/title
+- [ ] Show food with their ingradients if found
+- [ ] If food not found then show "Item not found!"
 
 ---
 
